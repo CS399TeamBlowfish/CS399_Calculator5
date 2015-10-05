@@ -171,7 +171,9 @@ public class MainActivity extends AppCompatActivity {
                 str = txtScreen.getText().toString();
                 str=str.substring(str.length() - 1,str.length());
 
+                //-------------------------------
                 //TODO this code does not work
+                //-------------------------------
                while(str == "("){
                    str = txtScreen.getText().toString();
                     txtScreen.setText(str.toCharArray(),1,str.length());
